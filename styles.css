@@ -121,4 +121,49 @@ header {
     margin-right: 400px;
 }
 
+/* Third section under header (mainLinks) */
+
+#thirdSection {
+    background-color: palevioletred;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#thirdSection #sectionDiv {
+    background-color: blueviolet;
+    width: 75%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#thirdSection #sectionDiv #textDiv{
+    margin-bottom: 10px;
+}
+    
+
+/* Footer */
+
+footer {
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span{
+    width: auto;
+    height: 20px;
+    margin-bottom: 35px;
+}
+
 /* Font Styles */
