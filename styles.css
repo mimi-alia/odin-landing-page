@@ -66,5 +66,41 @@ header {
     margin-left: 4%;
 }
 
+/* First section under header (mainLinks) */
+
+#mainLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: cadetblue;
+}
+
+#mainLinks h3{
+    align-self: center;
+    padding: 10px;
+}
+
+
+#mainLinks #linksContainers {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
+#mainLinks #linksContainers div {
+   height: 100%; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: nowrap;
+}
+
+#mainLinks #linksContainers div img {
+    height: 40%;
+}
 
 /* Font Styles */
