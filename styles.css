@@ -70,6 +70,8 @@ header {
 
 #mainLinks {
     display: flex;
+    width: auto;
+    height: 30%;
     flex-direction: column;
     justify-content: flex-start;
     background-color: cadetblue;
@@ -87,7 +89,7 @@ header {
     height: 400px;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -96,7 +98,7 @@ header {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
 }
 
 #mainLinks #linksContainers div img {
@@ -164,6 +166,16 @@ footer span{
     width: auto;
     height: 20px;
     margin-bottom: 35px;
+}
+
+/* Image Styling */
+
+#linksContainers img {
+    border: 3px white solid;
+    border-radius: 10%;
+    flex-basis: 200px;
+    width: 200px;
+    object-fit: cover;
 }
 
 /* Font Styles */
