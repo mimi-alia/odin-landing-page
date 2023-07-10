@@ -66,8 +66,11 @@ html, body {
 }
 
 #headsection #headimage{
-    height: 80%;
-    margin-left: 4%;
+    height: 90%;
+    margin-left: 12%;
+    margin-bottom: 1%;
+    border:#E5E7EB 2px solid;
+    border-radius: 10%;
 }
 
 /* First section under header (mainLinks) */
@@ -103,7 +106,7 @@ html, body {
    flex-direction: column;
    justify-content: baseline;
    flex-wrap: wrap;
-   margin-top: 20px;
+   margin-top: 50px;
 }
 
 
@@ -118,7 +121,7 @@ html, body {
 #mainLinks #linksContainers div span {
     align-self: center;
     margin-top: 10px;
-    margin-right: 15px;
+    margin-right: 25px;
     text-align: center;
 }
 
