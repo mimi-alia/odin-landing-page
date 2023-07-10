@@ -167,7 +167,8 @@ html, body {
 
 #thirdSection #sectionDiv {
     width: 75%;
-    height: 45%;
+    height: 55%;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -176,6 +177,21 @@ html, body {
 
 #thirdSection #sectionDiv #textDiv{
     margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+#thirdSection #textDiv h4{
+    margin-bottom: -1px;
+}
+
+#thirdSection #sectionDiv button{
+    width: 80px;
+    margin-right: 75px;
+    margin-top: 10px;
+}
+
+footer span {
+    margin-top: 40px;
 }
     
 
@@ -227,7 +243,7 @@ button {
     color: #E5E7EB;
     padding: 10px;
     border: 0px;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 button:hover{
@@ -312,4 +328,8 @@ main {
 
 #secondSection .quote-text strong {
     font-weight: bold;
+}
+
+#thirdSection #textDiv h4{
+    font-size: 20px;
 }
