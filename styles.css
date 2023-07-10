@@ -112,6 +112,12 @@ html, body {
    margin-top: 50px;
 }
 
+#mainLinks #linksContainers .mainLinks-div {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
 
 #mainLinks #linksContainers img {
     border-radius: 10%;
@@ -121,10 +127,8 @@ html, body {
     object-fit: cover;
 }
 
-#mainLinks #linksContainers div span {
-    align-self: center;
-    margin-top: 10px;
-    margin-right: 25px;
+#mainLinks #linksContainers .mainLinks-div span {
+    margin-top: 8px;
     text-align: center;
 }
 
