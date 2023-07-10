@@ -130,16 +130,21 @@ html, body {
 #secondSection {
     width: 100%;
     height: 400px;
-    padding-left: 300px;
+    margin-right: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
 }
 
+#secondSection #quote-text{
+    width: 60%;
+    align-self: center;
+}
+
 #secondSection .reference{
     align-self: flex-end;
-    margin-right: 400px;
+    margin-right: 450px;
 }
 
 /* Third section under header (mainLinks) */
@@ -283,14 +288,21 @@ main {
 
 
 #image_reference a{
-    color: #939495;;
+    color: #939495;
     text-decoration: none;
 }
+
 
 #image_reference a:hover {
     text-decoration: underline;
 }
 
+
 #secondSection .reference {
+    font-weight: bold;
+    font-size:x-large;
+}
+
+#secondSection .quote-text strong {
     font-weight: bold;
 }
