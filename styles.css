@@ -15,21 +15,25 @@ html, body {
     height:75px;
     width: 100%;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-#navigation h1 {
+#navigation #header-logo {
     width: 70%;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
-#navigation ul {
+#navigation #header-link {
     display: flex;
     flex-direction: row;
+    gap: 10px;
     width: 30%;
+    margin-right: 10%;
     justify-content: space-around;
     align-items: center;
 }
+
+
 
 #headsection {
     display: flex;
@@ -40,19 +44,25 @@ html, body {
     align-items: center;
 }
 
-#headsection div {
+
+#headsection #header-secondary {
     display: flex;
     width: 30%;
+    margin-bottom: 50px;
     flex-direction: column;
 }
 
-#headsection div *{
+#headsection #header-secondary p{
+    margin-top: -20px;
+}
+
+#headsection #header-secondary *{
     width: 100%;
     align-items: flex-start;
 }
 
-#headsection div button{
-    width: 30%;
+#headsection #header-secondary button{
+    width: 80px;
 }
 
 #headsection #headimage{
