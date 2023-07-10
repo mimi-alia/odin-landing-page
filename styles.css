@@ -20,17 +20,20 @@ html, body {
 
 #navigation #header-logo {
     width: 70%;
-    margin-left: 15%;
+    margin-left: 4%;
 }
 
 #navigation #header-link {
     display: flex;
     flex-direction: row;
-    gap: 10px;
     width: 30%;
-    margin-right: 10%;
+    margin-right: 2%;
     justify-content: space-around;
     align-items: center;
+}
+
+#navigation #header-link {
+    padding: 10px;
 }
 
 
